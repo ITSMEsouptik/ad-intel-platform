@@ -1,0 +1,97 @@
+{
+  "has_data": true,
+  "status": "fresh",
+  "latest": {
+    "version": "1.5",
+    "captured_at": "2026-02-23T14:37:34.128337Z",
+    "refresh_due_at": "2026-03-25T14:37:34.128337Z",
+    "inputs_used": {
+      "geo": {
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "brand_name": "ExampleBrand",
+      "domain": "example-brand.co",
+      "subcategory": "On-demand Beauty Services",
+      "niche": "Home Hair & Makeup Dubai",
+      "services": [
+        "Makeup With or Without Lashes",
+        "Makeup & Simple Hairstyle",
+        "Makeup & Premium Hairstyle",
+        "Full Set Eyelash Extension",
+        "Eyelash Extension Refill",
+        "Classic Combo (Mani / Pedi)"
+      ],
+      "brand_overview": "Online platform bridging beauty professionals and customers with home services, bookings, workshops, and corporate events in Dubai. | Unleash Your Beauty, Anywhere, Anytime | Online booking platform with detailed service catalog | Email contact at info@example-brand.co for custom bookings",
+      "app_store_urls": [],
+      "brand_claims": [
+        "ExampleBrand delivers professional beauty services like hair, makeup, nails, and massages directly to your home or location in Dubai with easy online booking.",
+        "Corporate packages for events and teams",
+        "Online booking with flexible options",
+        "Priced from 255 AED for accessibility",
+        "Online booking platform with detailed service catalog",
+        "Email contact at info@example-brand.co for custom bookings"
+      ]
+    },
+    "social_proof_readiness": "weak",
+    "reputation_summary": [],
+    "platform_presence": [],
+    "strength_themes": [],
+    "weakness_themes": [],
+    "social_proof_snippets": [],
+    "trust_signals": [],
+    "competitor_reputation": [],
+    "brand_vs_reality": {
+      "claims_checked": 0,
+      "supported": 0,
+      "contradicted": 0,
+      "not_mentioned": 0,
+      "checks": [],
+      "summary": ""
+    },
+    "audit": {
+      "platforms_checked": 8,
+      "platforms_with_reviews": 0,
+      "total_approximate_reviews": 0,
+      "discovery_model": "sonar",
+      "analysis_model": "sonar",
+      "discovery_tokens": 1661,
+      "analysis_tokens": 1448,
+      "geo_platforms_used": [
+        "Google Maps",
+        "Facebook",
+        "Tripadvisor",
+        "Zomato",
+        "Talabat"
+      ],
+      "niche_platforms_used": [
+        "Fresha",
+        "Booksy",
+        "StyleSeat"
+      ],
+      "postprocess_stats": {
+        "platforms_raw": 0,
+        "platforms_validated": 0,
+        "platforms_employee_site_removed": 0,
+        "platforms_wrong_city_removed": 0,
+        "platforms_app_store": 0,
+        "strength_themes_raw": 0,
+        "strength_themes_kept": 0,
+        "weakness_themes_raw": 0,
+        "weakness_themes_kept": 0,
+        "snippets_raw": 0,
+        "snippets_kept": 0,
+        "generic_themes_removed": 0,
+        "brand_claims_checked": 0,
+        "brand_claims_supported": 0,
+        "brand_claims_contradicted": 0
+      }
+    },
+    "delta": {
+      "previous_captured_at": "2026-02-23T14:37:22.160517Z",
+      "notable_changes": [],
+      "rating_change": null
+    }
+  },
+  "refresh_due_in_days": 18
+}

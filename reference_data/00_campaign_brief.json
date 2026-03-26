@@ -1,0 +1,39 @@
+{
+  "campaign_brief_id": "32920ce6-8f47-4ab7-bb24-6bd7b0c96223",
+  "created_at": "2026-02-23T14:33:59.664943+00:00",
+  "updated_at": "2026-02-23T14:34:26.326386+00:00",
+  "track": "pilot",
+  "user_id": null,
+  "contact": {
+    "name": "",
+    "email": ""
+  },
+  "brand": {
+    "website_url": "https://example-brand.co"
+  },
+  "goal": {
+    "primary_goal": "sales_orders",
+    "success_definition": ""
+  },
+  "geo": {
+    "country": "United Arab Emirates",
+    "city_or_region": "Dubai"
+  },
+  "destination": {
+    "type": "website"
+  },
+  "ads_intent": "yes",
+  "budget_range_monthly": "not_sure",
+  "raw_intake": {
+    "website_url": "example-brand.co",
+    "country": "United Arab Emirates",
+    "city_or_region": "",
+    "primary_goal": null,
+    "success_definition": "",
+    "destination_type": null,
+    "ads_intent": null,
+    "budget_range_monthly": null,
+    "name": "",
+    "email": ""
+  }
+}

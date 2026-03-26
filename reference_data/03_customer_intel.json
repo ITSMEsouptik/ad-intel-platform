@@ -1,0 +1,241 @@
+{
+  "has_data": true,
+  "status": "fresh",
+  "latest": {
+    "version": "1.1",
+    "captured_at": "2026-02-23T14:37:54.491457Z",
+    "refresh_due_at": "2026-03-09T14:37:54.491457Z",
+    "summary_bullets": [
+      "Busy businesswomen book home glam to save time on commutes[1][4]",
+      "Brides and prom girls seek on-demand makeup and hair at home[1]",
+      "Men now book grooming for Zoom calls and corporate events[2][4]"
+    ],
+    "segments": [
+      {
+        "segment_name": "Busy Businesswomen",
+        "jtbd": "",
+        "core_motives": [
+          "Reclaim time lost to Dubai's 10-hour weekly commutes[4]",
+          "Feel glammed up for work and social life on demand[1]",
+          "Enjoy beauty services within flexible budget and location[1]"
+        ],
+        "top_pains": [
+          "No time for salon trips amid work and family[4]",
+          "Parking hassles and long waits at salons[1]",
+          "Traffic delays disrupting busy schedules[4]"
+        ],
+        "top_objections": [
+          "3-hour lead time for last-minute bookings[3]",
+          "Unsure about pro quality at home[3]",
+          "Minimum spend set by each professional[3]"
+        ],
+        "best_proof": [
+          "Vetted professionals with certifications[3]",
+          "Services for brands and events[1]",
+          "App matches based on look and occasion[4]"
+        ],
+        "risk_reducers": [
+          "Cancel via phone or email policy[3]",
+          "Book multiple pros if available[3]",
+          "Post-COVID hygiene focus for all[1]"
+        ],
+        "best_offer_items": [
+          "Makeup & Premium Hairstyle",
+          "Makeup With or Without Lashes"
+        ],
+        "best_channel_focus": [
+          "Instagram Reels",
+          "LinkedIn"
+        ],
+        "search_language": []
+      },
+      {
+        "segment_name": "Event Brides & Prom",
+        "jtbd": "Book home makeup, hair, and lashes for weddings, proms, or galas without leaving home[1][4]",
+        "core_motives": [
+          "Achieve dream bridal or prom look conveniently[4]",
+          "Access freelancers for special occasion glam[1]",
+          "Tailored services for fashion shows and events[1]"
+        ],
+        "top_pains": [
+          "Finding available pros for peak event times[3]",
+          "Travel stress before big occasions[4]",
+          "Matching budget to special glam needs[1]"
+        ],
+        "top_objections": [
+          "Limited same-day availability[3]",
+          "Coordinating multiple services[3]",
+          "Hygiene concerns post-COVID[1]"
+        ],
+        "best_proof": [
+          "Used by brides and young women for prom[1]",
+          "Empowers talented freelancers[1]",
+          "Curated for occasions like school galas[4]"
+        ],
+        "risk_reducers": [
+          "3-hour prep ensures pro readiness[3]",
+          "Interviewed and approved pros[3]",
+          "Flexible location and price points[1]"
+        ],
+        "best_offer_items": [
+          "Makeup & Simple Hairstyle",
+          "Full Set Eyelash Extension"
+        ],
+        "best_channel_focus": [
+          "Instagram",
+          "Facebook"
+        ],
+        "search_language": []
+      },
+      {
+        "segment_name": "Men Grooming Newbies",
+        "jtbd": "Get quick beard, hair, or grooming touch-ups at home for Zoom, shoots, or events[2][4]",
+        "core_motives": [
+          "Look sharp for corporate shoots and media[4]",
+          "Grooming without salon visits post-pandemic[2]",
+          "Embrace on-demand services like women do[2]"
+        ],
+        "top_pains": [
+          "Unkempt look harms Zoom professionalism[2]",
+          "Time crunch for grooming routines[4]",
+          "Few options for men's home services[2]"
+        ],
+        "top_objections": [
+          "New to app-based grooming booking[2]",
+          "Availability for men's specific needs[3]",
+          "Unfamiliar with pro minimums[3]"
+        ],
+        "best_proof": [
+          "Expanded post-COVID for men body care[1]",
+          "Hair styling and manicures anywhere[2]",
+          "Growing trend for public events[4]"
+        ],
+        "risk_reducers": [
+          "Vetted pros via app signup[3]",
+          "Book from home for safety[2]",
+          "Easy cancellation contact[3]"
+        ],
+        "best_offer_items": [
+          "Classic Combo (Mani / Pedi)",
+          "Gel Manicure & Classic Pedicure"
+        ],
+        "best_channel_focus": [
+          "Instagram",
+          "LinkedIn"
+        ],
+        "search_language": []
+      }
+    ],
+    "trigger_map": {
+      "moment_triggers": [
+        "Wedding or prom preparation[1]",
+        "Fashion show or corporate event[1]",
+        "Photoshoot or media appearance[1]",
+        "Stay-at-home parent self-care[1]",
+        "Businesswoman daily polish-up[4]"
+      ],
+      "urgency_triggers": [
+        "Zoom call in hours needing touch-up[2]",
+        "Last-minute event prep[4]",
+        "Unkempt look before meeting[2]",
+        "Post-commute quick glam[4]"
+      ],
+      "planned_triggers": [
+        "Hotel launch beauty activation[4]",
+        "School gala group booking[4]",
+        "Private viewing for brand[1]",
+        "Advertising agency shoot[1]"
+      ]
+    },
+    "language_bank": {
+      "desire_phrases": [
+        "Glam delivered to my home",
+        "Beauty pros at my location",
+        "On-demand hair and makeup",
+        "Feel fabulous without leaving",
+        "Reclaim time for self-care",
+        "Groomed for Zoom anywhere",
+        "Dream bridal look at home",
+        "Prom glam on my schedule",
+        "Men's grooming touch-up fast",
+        "Nails done in office",
+        "Lashes extended conveniently",
+        "Event-ready without traffic"
+      ],
+      "anxiety_phrases": [
+        "No time for salon parking",
+        "Traffic wastes my day",
+        "Last-minute pro unavailable",
+        "Hygiene risks at salons",
+        "Unkempt for video calls",
+        "Budget over for glam",
+        "Pro won't show on time",
+        "Multiple services clash",
+        "Men's options limited",
+        "3-hour wait too long",
+        "Minimum spend surprise",
+        "Quality doubt at home"
+      ],
+      "intent_phrases": [
+        "Book home makeup now",
+        "Eyelash extension Dubai home",
+        "Mani pedi at my place",
+        "hairstyle delivery",
+        "Grooming pro to office",
+        "Cancel booking easily",
+        "Multiple pros same time",
+        "Event glam on-demand",
+        "Men beard styling home",
+        "Gel removal combo book",
+        "Acrylic nails full set",
+        "Beauty for corporate event"
+      ]
+    },
+    "audit": {
+      "offer_items_available": [
+        "Makeup With or Without Lashes",
+        "Makeup & Simple Hairstyle",
+        "Makeup & Premium Hairstyle",
+        "Full Set Eyelash Extension",
+        "Eyelash Extension Refill",
+        "Classic Combo (Mani / Pedi)",
+        "Gel Combo (Mani / Pedi)",
+        "Gel Combo & Gel Removal Combo",
+        "Gel Manicure & Classic Pedicure",
+        "Acrylic / Gel Extension - Full Set"
+      ],
+      "offer_items_used": [
+        "Makeup & Premium Hairstyle",
+        "Gel Manicure & Classic Pedicure",
+        "Makeup With or Without Lashes",
+        "Full Set Eyelash Extension",
+        "Makeup & Simple Hairstyle",
+        "Classic Combo (Mani / Pedi)"
+      ],
+      "search_phrases_available_count": 0,
+      "search_phrases_used": [],
+      "segments_raw_count": 3,
+      "segments_dropped": [],
+      "relaxation_applied": false,
+      "missing_inputs": [
+        "search_demand",
+        "seasonality",
+        "competitors"
+      ],
+      "generic_filler_removed": 3,
+      "duplicates_removed": 0,
+      "retry_count": 0,
+      "llm_model": "sonar",
+      "llm_tokens_used": 2720
+    },
+    "delta": {
+      "notable_changes": [
+        "New segments: Men Grooming Newbies",
+        "Removed: Corporate Event Groups"
+      ],
+      "new_segments_count": 1,
+      "removed_segments_count": 1
+    }
+  },
+  "refresh_due_in_days": 2
+}

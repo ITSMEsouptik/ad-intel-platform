@@ -1,0 +1,102 @@
+{
+  "has_data": true,
+  "status": "fresh",
+  "latest": {
+    "version": "1.0",
+    "captured_at": "2026-02-23T14:37:18.964591Z",
+    "refresh_due_at": "2026-03-25T14:37:18.964591Z",
+    "inputs_used": {
+      "geo": {
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "brand_name": "ExampleBrand",
+      "domain": "example-brand.co",
+      "subcategory": "On-demand Beauty Services",
+      "niche": "Home Hair & Makeup Dubai",
+      "services": [
+        "Makeup With or Without Lashes",
+        "Makeup & Simple Hairstyle",
+        "Makeup & Premium Hairstyle",
+        "Full Set Eyelash Extension",
+        "Eyelash Extension Refill",
+        "Classic Combo (Mani / Pedi)"
+      ],
+      "brand_overview": "Online platform bridging beauty professionals and customers with home services, bookings, workshops, and corporate events in Dubai. | Unleash Your Beauty, Anywhere, Anytime | Online booking platform with detailed service catalog | Email contact at info@example-brand.co for custom bookings",
+      "competitors_used": false,
+      "optional_modules_used": []
+    },
+    "query_plan": {
+      "total_queries": 26,
+      "families": [
+        "trust",
+        "recommendation",
+        "price",
+        "comparison",
+        "pain"
+      ],
+      "target_domains": [
+        "hackernews.ycombinator.com",
+        "indiehackers.com",
+        "medium.com",
+        "producthunt.com",
+        "quora.com",
+        "reddit.com",
+        "stackexchange.com"
+      ]
+    },
+    "threads": [],
+    "themes": [],
+    "language_bank": {
+      "phrases": [],
+      "words": []
+    },
+    "audience_notes": [],
+    "creative_implications": [],
+    "gaps_to_research": [],
+    "audit": {
+      "queries_generated": 26,
+      "query_families_used": [
+        "trust",
+        "recommendation",
+        "price",
+        "comparison",
+        "pain"
+      ],
+      "threads_discovered": 0,
+      "threads_after_dedup": 0,
+      "domains_found": [],
+      "themes_raw": 0,
+      "themes_kept": 0,
+      "discovery_model": "sonar",
+      "synthesis_model": "sonar",
+      "discovery_tokens": 1620,
+      "synthesis_tokens": 0,
+      "postprocess_stats": {
+        "threads_raw": 0,
+        "threads_excluded_domain": 0,
+        "threads_not_forum": 0,
+        "threads_deduped": 0,
+        "threads_kept": 0,
+        "themes_raw": 0,
+        "themes_kept": 0,
+        "themes_no_forum_source": 0,
+        "generic_themes_removed": 0,
+        "themes_no_evidence_removed": 0,
+        "phrases_raw": 0,
+        "phrases_kept": 0,
+        "words_raw": 0,
+        "words_kept": 0,
+        "domains_found": []
+      }
+    },
+    "delta": {
+      "previous_captured_at": "2026-02-23T14:37:18.815707Z",
+      "new_domains": [],
+      "new_threads_count": 0,
+      "new_theme_labels": [],
+      "removed_theme_labels": []
+    }
+  },
+  "refresh_due_in_days": 18
+}

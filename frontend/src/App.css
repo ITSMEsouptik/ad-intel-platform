@@ -1,0 +1,33 @@
+/* Novara App Styles */
+
+.App {
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Form elements reset */
+input, select, textarea, button {
+    font-family: inherit;
+}
+
+/* Focus states */
+input:focus, select:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+/* Disable default focus ring */
+*:focus {
+    outline: none;
+}
+
+/* Custom focus ring */
+*:focus-visible {
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    outline-offset: 2px;
+}

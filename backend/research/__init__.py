@@ -1,0 +1,3 @@
+"""
+Novara Research Foundation Package
+"""

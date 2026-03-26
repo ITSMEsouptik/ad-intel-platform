@@ -1,0 +1,196 @@
+{
+  "has_data": true,
+  "status": "fresh",
+  "latest": {
+    "version": "2.1",
+    "captured_at": "2026-02-23T14:37:30.477500Z",
+    "refresh_due_at": "2026-03-25T14:37:30.477500Z",
+    "inputs_used": {
+      "geo": {
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "brand_name": "ExampleBrand",
+      "domain": "example-brand.co",
+      "niche": "Home Hair & Makeup Dubai",
+      "subcategory": "On-demand Beauty Services",
+      "services": [
+        "Makeup With or Without Lashes",
+        "Makeup & Simple Hairstyle",
+        "Makeup & Premium Hairstyle",
+        "Full Set Eyelash Extension",
+        "Eyelash Extension Refill",
+        "Classic Combo (Mani / Pedi)"
+      ],
+      "brand_overview": "Online platform bridging beauty professionals and customers with home services, bookings, workshops, and corporate events in Dubai. | Unleash Your Beauty, Anywhere, Anytime | Online booking platform with detailed service catalog | Email contact at info@example-brand.co for custom bookings",
+      "price_range": {
+        "currency": "AED",
+        "min": 255.0,
+        "max": 2100.0,
+        "avg": 718.73
+      }
+    },
+    "key_moments": [
+      {
+        "moment": "Peak Wedding Muhurat Feb-Mar",
+        "window": "Feb 5 - Mar 12",
+        "demand": "high",
+        "who": "Hindu brides-to-be in Dubai",
+        "why_now": "Auspicious vivah muhurat dates cluster forces bookings before limited slots fill[1][4]",
+        "buy_triggers": [
+          "Vivah muhurat on Feb 5",
+          "Muhurat dates Feb 19-26",
+          "March muhurat Mar 2-12"
+        ],
+        "must_answer": "Availability of artist on exact muhurat date",
+        "best_channels": [
+          "Google Search",
+          "Instagram Reels"
+        ],
+        "lead_time": "1-2 months ahead"
+      },
+      {
+        "moment": "May Vivah Muhurat Peak",
+        "window": "May 1-14",
+        "demand": "high",
+        "who": "Destination wedding brides",
+        "why_now": "8 muhurat dates in May peak season before summer heat limits events[1][2]",
+        "buy_triggers": [
+          "Muhurat May 1,3,5,6",
+          "Muhurat May 7,8,13,14",
+          "Pre-summer venue rush"
+        ],
+        "must_answer": "Reliability of home service in heat",
+        "best_channels": [
+          "WhatsApp groups",
+          "Meta retargeting"
+        ],
+        "lead_time": "2-4 weeks before"
+      },
+      {
+        "moment": "Cool Weather Wedding Season",
+        "window": "Nov 21-26",
+        "demand": "high",
+        "who": "Expat brides in Dubai",
+        "why_now": "Pleasant Nov-Mar weather ideal for outdoor weddings with muhurat dates[3][1]",
+        "buy_triggers": [
+          "Muhurat Nov 21,24-26",
+          "Winter outdoor event start",
+          "Post-Ramadan celebrations"
+        ],
+        "must_answer": "Timing fit for evening outdoor event",
+        "best_channels": [
+          "Google Search",
+          "YouTube pre-roll"
+        ],
+        "lead_time": "1-2 months ahead"
+      },
+      {
+        "moment": "April Muhurat Stretch",
+        "window": "Apr 15-29",
+        "demand": "medium",
+        "who": "Indian expat makeup brides",
+        "why_now": "Multiple muhurat dates Apr 15-29 before hottest months hit Dubai[1][6]",
+        "buy_triggers": [
+          "Muhurat Apr 15,20-29",
+          "Pre-summer wedding rush",
+          "Family arrival deadlines"
+        ],
+        "must_answer": "Cost stability before peak pricing",
+        "best_channels": [
+          "Instagram Reels",
+          "WhatsApp groups"
+        ],
+        "lead_time": "3-6 weeks before"
+      },
+      {
+        "moment": "Ramadan EID Prep",
+        "window": "2 weeks before Eid al-Fitr",
+        "demand": "medium",
+        "who": "Muslim women for family gatherings",
+        "why_now": "Eid al-Fitr post-Ramadan demands flawless makeup for iftar and celebrations",
+        "buy_triggers": [
+          "Eid al-Fitr prayer date",
+          "Family iftar dinners",
+          "Post-fast social events"
+        ],
+        "must_answer": "Service during restricted Ramadan hours",
+        "best_channels": [
+          "WhatsApp groups",
+          "Meta retargeting"
+        ],
+        "lead_time": "1-2 weeks before"
+      },
+      {
+        "moment": "June Monsoon Muhurat",
+        "window": "Jun 21-29",
+        "demand": "moderate",
+        "who": "Budget-conscious Hindu brides",
+        "why_now": "Final muhurat cluster Jun 21-29 before 4-month wedding gap[1][2]",
+        "buy_triggers": [
+          "Muhurat Jun 21-27,29",
+          "Indoor venue availability",
+          "Pre-monsoon date lock"
+        ],
+        "must_answer": "Artist travel in summer heat",
+        "best_channels": [
+          "Google Search",
+          "Instagram Reels"
+        ],
+        "lead_time": "4-6 weeks before"
+      },
+      {
+        "moment": "UAE National Day Glam",
+        "window": "Nov 30-Dec 2",
+        "demand": "moderate",
+        "who": "Dubai social event attendees",
+        "why_now": "National Day Dec 2 public holiday sparks home parties and gatherings",
+        "buy_triggers": [
+          "National Day on Dec 2",
+          "Public holiday Dec 1-3",
+          "Family celebration invites"
+        ],
+        "must_answer": "Same-day home booking availability",
+        "best_channels": [
+          "WhatsApp groups",
+          "Local radio"
+        ],
+        "lead_time": "same week"
+      }
+    ],
+    "evergreen_demand": [
+      "Corporate event professionals needing quick home makeup for meetings",
+      "Expat women prepping for weekly dinners or photoshoots"
+    ],
+    "weekly_patterns": {
+      "peak_days": [
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "why": "Weekend evenings and pre-Friday Jummah prayers drive home beauty bookings"
+    },
+    "local_insights": [
+      "Hindu vivah muhurat dates dictate Indian expat wedding timing in Dubai[1][4]",
+      "Nov-Mar cool weather enables outdoor destination weddings[3]",
+      "Ramadan alters service hours; Eid spikes family glam demand",
+      "UAE National Day Dec 2 fuels patriotic home celebrations"
+    ],
+    "delta": {
+      "previous_captured_at": "2026-02-23T14:37:26.043657Z",
+      "new_moments_count": 7,
+      "removed_moments_count": 6,
+      "notable_changes": [
+        "New: June Monsoon Muhurat, Ramadan EID Prep",
+        "Removed: Islamic New Year Gatherings, Pre-Eid al-Adha Prep"
+      ]
+    },
+    "audit": {
+      "raw_moments_count": 7,
+      "filtered_count": 0,
+      "filter_reasons": {},
+      "relaxation_applied": false
+    }
+  },
+  "refresh_due_in_days": 18
+}

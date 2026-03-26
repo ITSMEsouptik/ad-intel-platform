@@ -1,0 +1,20 @@
+# macOS AppleDouble metadata files (created on external/non-HFS+ drives)
+._*
+**/._*
+
+**/.git
+**/__pycache__
+**/*.py[cod]
+**/.mypy_cache
+**/.pytest_cache
+**/.venv
+**/venv
+
+frontend/node_modules
+frontend/build
+
+test_reports
+tests
+
+*.log
+

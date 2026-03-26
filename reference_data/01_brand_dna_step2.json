@@ -1,0 +1,1159 @@
+{
+  "website_context_pack_id": "b088c4bc-ca5b-41d4-9e75-de934139ab23",
+  "campaign_brief_id": "32920ce6-8f47-4ab7-bb24-6bd7b0c96223",
+  "status": "success",
+  "confidence_score": 100,
+  "data": null,
+  "questions": [],
+  "created_at": "2026-02-23T14:34:00.207145+00:00",
+  "updated_at": "2026-02-23T14:35:26.608651+00:00",
+  "step2": {
+    "site": {
+      "input_url": "https://example-brand.co",
+      "final_url": "https://www.example-brand.co/",
+      "domain": "example-brand.co",
+      "title": "Hair And Makeup Home Service Dubai | ExampleBrandbeauty.com",
+      "meta_description": "INSTAGLAM is an online platform that aims to bridge the gap between those who provide beauty services and customers. All things beauty, from online bookings to interactive workshops, brand activations/editorials, or corporate grooming and training. Hair and makeup home service dubai",
+      "language": "en"
+    },
+    "classification": {
+      "industry": "Beauty & Wellness",
+      "subcategory": "On-demand Beauty Services",
+      "niche": "Home Hair & Makeup Dubai",
+      "tags": [
+        "corporate grooming",
+        "lash extensions",
+        "nail services",
+        "massage",
+        "workshops"
+      ]
+    },
+    "brand_summary": {
+      "name": "ExampleBrand",
+      "tagline": "Unleash Your Beauty, Anywhere, Anytime",
+      "one_liner": "Online platform bridging beauty professionals and customers with home services, bookings, workshops, and corporate events in Dubai.",
+      "bullets": [
+        "Online booking platform with detailed service catalog",
+        "Email contact at info@example-brand.co for custom bookings"
+      ]
+    },
+    "brand_dna": {
+      "values": [
+        "Convenience",
+        "Quality",
+        "Accessibility",
+        "Professionalism"
+      ],
+      "tone_of_voice": [
+        "Friendly",
+        "Professional",
+        "Empowering",
+        "Modern"
+      ],
+      "aesthetic": [
+        "Clean",
+        "Feminine",
+        "Elegant"
+      ],
+      "visual_vibe": [
+        "Soft Colors",
+        "White Space",
+        "Lifestyle Photos"
+      ]
+    },
+    "identity": {
+      "logo": {
+        "primary_url": "https://static.wixstatic.com/media/05aa54_3c145af5adae472da2b8df100e277890~mv2.png/v1/fit/w_500,h_500,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/example-brand%20beauty%20logo.png",
+        "type": "logo",
+        "width": 0,
+        "height": 0
+      },
+      "colors": [
+        {
+          "hex": "#e21c21",
+          "role": "primary"
+        },
+        {
+          "hex": "#ffffff",
+          "role": "bg"
+        },
+        {
+          "hex": "#000000",
+          "role": "text"
+        },
+        {
+          "hex": "#e0dfdf",
+          "role": "bg"
+        }
+      ],
+      "fonts": [
+        {
+          "family": "Avenir Light",
+          "role": "heading",
+          "source": "css"
+        },
+        {
+          "family": "DIN Neuzeit Grotesk",
+          "role": "body",
+          "source": "css"
+        }
+      ]
+    },
+    "offer": {
+      "value_prop": "ExampleBrand delivers professional beauty services like hair, makeup, nails, and massages directly to your home or location in Dubai with easy online booking.",
+      "key_benefits": [
+        "Corporate packages for events and teams",
+        "Online booking with flexible options",
+        "Priced from 255 AED for accessibility"
+      ],
+      "offer_catalog": [
+        {
+          "name": "Makeup With or Without Lashes",
+          "category": "Makeup",
+          "price_display": "950 UAE dirhams",
+          "price_numeric": 950.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/makeup-with-or-without-lashes"
+        },
+        {
+          "name": "Makeup & Simple Hairstyle",
+          "category": "Makeup",
+          "price_display": "1,575 UAE dirhams",
+          "price_numeric": 1575.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/makeup-simple-hairstyle"
+        },
+        {
+          "name": "Makeup & Premium Hairstyle",
+          "category": "Makeup",
+          "price_display": "2,100 UAE dirhams",
+          "price_numeric": 2100.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/makeup-premium-hairstyle"
+        },
+        {
+          "name": "Full Set Eyelash Extension",
+          "category": "Eyelashe Extension",
+          "price_display": "682.50 UAE dirhams",
+          "price_numeric": 682.5,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/full-set-eyelash-extension-1"
+        },
+        {
+          "name": "Eyelash Extension Refill",
+          "category": "Eyelashe Extension",
+          "price_display": "550 UAE dirhams",
+          "price_numeric": 550.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/eyelash-extension-refill"
+        },
+        {
+          "name": "Classic Combo (Mani / Pedi)",
+          "category": "Nails",
+          "price_display": "273 UAE dirhams",
+          "price_numeric": 273.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "#"
+        },
+        {
+          "name": "Gel Combo (Mani / Pedi)",
+          "category": "Nails",
+          "price_display": "395 UAE dirhams",
+          "price_numeric": 395.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/gel-combo-mani-pedi"
+        },
+        {
+          "name": "Gel Combo & Gel Removal Combo",
+          "category": "Nails",
+          "price_display": "465 UAE dirhams",
+          "price_numeric": 465.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/gel-combo-gel-removal-combo"
+        },
+        {
+          "name": "Gel Manicure & Classic Pedicure",
+          "category": "Nails",
+          "price_display": "367.50 UAE dirhams",
+          "price_numeric": 367.5,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/gel-manicure-classic-pedicure"
+        },
+        {
+          "name": "Acrylic / Gel Extension - Full Set",
+          "category": "Nails",
+          "price_display": "575 UAE dirhams",
+          "price_numeric": 575.0,
+          "currency": "AED",
+          "duration": "3 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/acrylic-gel-extension-full-set"
+        },
+        {
+          "name": "Acrylic / Gel Extension - Refill",
+          "category": "Nails",
+          "price_display": "420 UAE dirhams",
+          "price_numeric": 420.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/acrylic-gel-extension-refill"
+        },
+        {
+          "name": "Male Classic Combo (Mani / Pedi)",
+          "category": "Nails",
+          "price_display": "255 UAE dirhams",
+          "price_numeric": 255.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/male-classic-combo-mani-pedi"
+        },
+        {
+          "name": "Full Body Waxing",
+          "category": "Waxing, Threading & Nail Treatment",
+          "price_display": "475 UAE dirhams",
+          "price_numeric": 475.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/full-body-waxing"
+        },
+        {
+          "name": "Full Body Waxing with Bikini",
+          "category": "Waxing, Threading & Nail Treatment",
+          "price_display": "630 UAE dirhams",
+          "price_numeric": 630.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/full-body-waxing-with-bikini"
+        },
+        {
+          "name": "Full Face Threading Including Eyebrows",
+          "category": "Waxing, Threading & Nail Treatment",
+          "price_display": "255 UAE dirhams",
+          "price_numeric": 255.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/full-face-threading-including-eyebrows"
+        },
+        {
+          "name": "Paraffin Therapy - Combo (Hands & Feet)",
+          "category": "Waxing, Threading & Nail Treatment",
+          "price_display": "385 UAE dirhams",
+          "price_numeric": 385.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/paraffin-therapy-combo-hands-feet"
+        },
+        {
+          "name": "Paraffin Therapy w/ Polish - Combo",
+          "category": "Waxing, Threading & Nail Treatment",
+          "price_display": "455 UAE dirhams",
+          "price_numeric": 455.0,
+          "currency": "AED",
+          "duration": "2 hr 15 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/paraffin-therapy-w-polish-combo"
+        },
+        {
+          "name": "Blow Dry (S) - Neck Length",
+          "category": "Hair- Blow Dry",
+          "price_display": "420 UAE dirhams",
+          "price_numeric": 420.0,
+          "currency": "AED",
+          "duration": "45 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-s-neck-length"
+        },
+        {
+          "name": "Blow Dry (M) - Shoulder Length",
+          "category": "Hair- Blow Dry",
+          "price_display": "475 UAE dirhams",
+          "price_numeric": 475.0,
+          "currency": "AED",
+          "duration": "55 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-m-shoulder-length"
+        },
+        {
+          "name": "Blow Dry (L) - Elbow Length",
+          "category": "Hair- Blow Dry",
+          "price_display": "540 UAE dirhams",
+          "price_numeric": 540.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-l-elbow-length"
+        },
+        {
+          "name": "Blow Dry (V.L) - Below Elbow Length",
+          "category": "Hair- Blow Dry",
+          "price_display": "650 UAE dirhams",
+          "price_numeric": 650.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-v-l-below-elbow-length"
+        },
+        {
+          "name": "Up Do - (S) Neck Length",
+          "category": "Hair - Up Do",
+          "price_display": "850 UAE dirhams",
+          "price_numeric": 850.0,
+          "currency": "AED",
+          "duration": "1 hr 15 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/up-do-s-neck-length"
+        },
+        {
+          "name": "Up Do - (M) Shoulder Length",
+          "category": "Hair - Up Do",
+          "price_display": "985 UAE dirhams",
+          "price_numeric": 985.0,
+          "currency": "AED",
+          "duration": "1 hr 15 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/up-do-m-shoulder-length"
+        },
+        {
+          "name": "Up Do - (L) Long Length",
+          "category": "Hair - Up Do",
+          "price_display": "1,200 UAE dirhams",
+          "price_numeric": 1200.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/up-do-l-long-length"
+        },
+        {
+          "name": "Up Do - (V.L) Below Elbow Length",
+          "category": "Hair - Up Do",
+          "price_display": "1,400 UAE dirhams",
+          "price_numeric": 1400.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/up-do-v-l-below-elbow-length"
+        },
+        {
+          "name": "Blow Dry With Iron (S) - Neck Length",
+          "category": "Hair- Blow Dry With Iron",
+          "price_display": "450 UAE dirhams",
+          "price_numeric": 450.0,
+          "currency": "AED",
+          "duration": "45 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-s-neck-length"
+        },
+        {
+          "name": "Blow Dry With Iron (M) - Shoulder Length",
+          "category": "Hair- Blow Dry With Iron",
+          "price_display": "525 UAE dirhams",
+          "price_numeric": 525.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-m-shoulder-length"
+        },
+        {
+          "name": "Blow Dry With Iron (L) - Elbow Length",
+          "category": "Hair- Blow Dry With Iron",
+          "price_display": "600 UAE dirhams",
+          "price_numeric": 600.0,
+          "currency": "AED",
+          "duration": "45 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-l-elbow-length"
+        },
+        {
+          "name": "Blow Dry w/Iron (V.L)-Below Elbow Length",
+          "category": "Hair- Blow Dry With Iron",
+          "price_display": "785 UAE dirhams",
+          "price_numeric": 785.0,
+          "currency": "AED",
+          "duration": "1 hr 45 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-w-iron-v-l-below-elbow-length"
+        },
+        {
+          "name": "Curls & Waves-(S)Neck length",
+          "category": "Hair - Curls & Waves",
+          "price_display": "775 UAE dirhams",
+          "price_numeric": 775.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-s-neck-length"
+        },
+        {
+          "name": "Curls & Waves-(M)Shoulder length",
+          "category": "Hair - Curls & Waves",
+          "price_display": "860 UAE dirhams",
+          "price_numeric": 860.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-m-shoulder-length"
+        },
+        {
+          "name": "Curls & Waves-(L)Elbow length",
+          "category": "Hair - Curls & Waves",
+          "price_display": "945 UAE dirhams",
+          "price_numeric": 945.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-l-elbow-length"
+        },
+        {
+          "name": "Curls & Waves-(V.L)Below Elbow length",
+          "category": "Hair - Curls & Waves",
+          "price_display": "1,050 UAE dirhams",
+          "price_numeric": 1050.0,
+          "currency": "AED",
+          "duration": "2 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-v-l-below-elbow-length"
+        },
+        {
+          "name": "Combination Massage - 60 Minutes",
+          "category": "Massage",
+          "price_display": "485 UAE dirhams",
+          "price_numeric": 485.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/combination-massage-60-minutes"
+        },
+        {
+          "name": "Thai Massage - 60 Minutes",
+          "category": "Massage",
+          "price_display": "485 UAE dirhams",
+          "price_numeric": 485.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/thai-massage-60-minutes"
+        },
+        {
+          "name": "Shiatsu Massage",
+          "category": "Massage",
+          "price_display": "525 UAE dirhams",
+          "price_numeric": 525.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/shiatsu-massage"
+        },
+        {
+          "name": "Deep Tissue - 60 Minutes",
+          "category": "Massage",
+          "price_display": "525 UAE dirhams",
+          "price_numeric": 525.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/deep-tissue-60-minutes"
+        },
+        {
+          "name": "Full Back Massage",
+          "category": "Massage",
+          "price_display": "315 UAE dirhams",
+          "price_numeric": 315.0,
+          "currency": "AED",
+          "duration": "45 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/full-back-massage"
+        },
+        {
+          "name": "Combination Massage - 90 Minutes",
+          "category": "Massage",
+          "price_display": "630 UAE dirhams",
+          "price_numeric": 630.0,
+          "currency": "AED",
+          "duration": "1 hr 30 min",
+          "booking_url": "https://www.example-brand.co/booking-calendar/combination-massage-90-minutes"
+        },
+        {
+          "name": "Couples Massage - 60 Minutes",
+          "category": "Massage",
+          "price_display": "750 UAE dirhams",
+          "price_numeric": 750.0,
+          "currency": "AED",
+          "duration": "1 hr",
+          "booking_url": "https://www.example-brand.co/booking-calendar/couples-massage-60-minutes"
+        }
+      ],
+      "grouped_catalog": [
+        {
+          "category": "Makeup",
+          "count": 3,
+          "price_range": {
+            "min": 950.0,
+            "max": 2100.0
+          },
+          "services": [
+            {
+              "name": "Makeup With or Without Lashes",
+              "price_display": "950 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/makeup-with-or-without-lashes"
+            },
+            {
+              "name": "Makeup & Simple Hairstyle",
+              "price_display": "1,575 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/makeup-simple-hairstyle"
+            },
+            {
+              "name": "Makeup & Premium Hairstyle",
+              "price_display": "2,100 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/makeup-premium-hairstyle"
+            }
+          ]
+        },
+        {
+          "category": "Eyelashe Extension",
+          "count": 2,
+          "price_range": {
+            "min": 550.0,
+            "max": 682.5
+          },
+          "services": [
+            {
+              "name": "Full Set Eyelash Extension",
+              "price_display": "682.50 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/full-set-eyelash-extension-1"
+            },
+            {
+              "name": "Eyelash Extension Refill",
+              "price_display": "550 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/eyelash-extension-refill"
+            }
+          ]
+        },
+        {
+          "category": "Nails",
+          "count": 7,
+          "price_range": {
+            "min": 255.0,
+            "max": 575.0
+          },
+          "services": [
+            {
+              "name": "Classic Combo (Mani / Pedi)",
+              "price_display": "273 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "#"
+            },
+            {
+              "name": "Gel Combo (Mani / Pedi)",
+              "price_display": "395 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/gel-combo-mani-pedi"
+            },
+            {
+              "name": "Gel Combo & Gel Removal Combo",
+              "price_display": "465 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/gel-combo-gel-removal-combo"
+            },
+            {
+              "name": "Gel Manicure & Classic Pedicure",
+              "price_display": "367.50 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/gel-manicure-classic-pedicure"
+            },
+            {
+              "name": "Acrylic / Gel Extension - Full Set",
+              "price_display": "575 UAE dirhams",
+              "duration": "3 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/acrylic-gel-extension-full-set"
+            },
+            {
+              "name": "Acrylic / Gel Extension - Refill",
+              "price_display": "420 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/acrylic-gel-extension-refill"
+            },
+            {
+              "name": "Male Classic Combo (Mani / Pedi)",
+              "price_display": "255 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/male-classic-combo-mani-pedi"
+            }
+          ]
+        },
+        {
+          "category": "Waxing, Threading & Nail Treatment",
+          "count": 5,
+          "price_range": {
+            "min": 255.0,
+            "max": 630.0
+          },
+          "services": [
+            {
+              "name": "Full Body Waxing",
+              "price_display": "475 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/full-body-waxing"
+            },
+            {
+              "name": "Full Body Waxing with Bikini",
+              "price_display": "630 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/full-body-waxing-with-bikini"
+            },
+            {
+              "name": "Full Face Threading Including Eyebrows",
+              "price_display": "255 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/full-face-threading-including-eyebrows"
+            },
+            {
+              "name": "Paraffin Therapy - Combo (Hands & Feet)",
+              "price_display": "385 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/paraffin-therapy-combo-hands-feet"
+            },
+            {
+              "name": "Paraffin Therapy w/ Polish - Combo",
+              "price_display": "455 UAE dirhams",
+              "duration": "2 hr 15 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/paraffin-therapy-w-polish-combo"
+            }
+          ]
+        },
+        {
+          "category": "Hair- Blow Dry",
+          "count": 4,
+          "price_range": {
+            "min": 420.0,
+            "max": 650.0
+          },
+          "services": [
+            {
+              "name": "Blow Dry (S) - Neck Length",
+              "price_display": "420 UAE dirhams",
+              "duration": "45 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-s-neck-length"
+            },
+            {
+              "name": "Blow Dry (M) - Shoulder Length",
+              "price_display": "475 UAE dirhams",
+              "duration": "55 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-m-shoulder-length"
+            },
+            {
+              "name": "Blow Dry (L) - Elbow Length",
+              "price_display": "540 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-l-elbow-length"
+            },
+            {
+              "name": "Blow Dry (V.L) - Below Elbow Length",
+              "price_display": "650 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-v-l-below-elbow-length"
+            }
+          ]
+        },
+        {
+          "category": "Hair - Up Do",
+          "count": 4,
+          "price_range": {
+            "min": 850.0,
+            "max": 1400.0
+          },
+          "services": [
+            {
+              "name": "Up Do - (S) Neck Length",
+              "price_display": "850 UAE dirhams",
+              "duration": "1 hr 15 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/up-do-s-neck-length"
+            },
+            {
+              "name": "Up Do - (M) Shoulder Length",
+              "price_display": "985 UAE dirhams",
+              "duration": "1 hr 15 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/up-do-m-shoulder-length"
+            },
+            {
+              "name": "Up Do - (L) Long Length",
+              "price_display": "1,200 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/up-do-l-long-length"
+            },
+            {
+              "name": "Up Do - (V.L) Below Elbow Length",
+              "price_display": "1,400 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/up-do-v-l-below-elbow-length"
+            }
+          ]
+        },
+        {
+          "category": "Hair- Blow Dry With Iron",
+          "count": 4,
+          "price_range": {
+            "min": 450.0,
+            "max": 785.0
+          },
+          "services": [
+            {
+              "name": "Blow Dry With Iron (S) - Neck Length",
+              "price_display": "450 UAE dirhams",
+              "duration": "45 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-s-neck-length"
+            },
+            {
+              "name": "Blow Dry With Iron (M) - Shoulder Length",
+              "price_display": "525 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-m-shoulder-length"
+            },
+            {
+              "name": "Blow Dry With Iron (L) - Elbow Length",
+              "price_display": "600 UAE dirhams",
+              "duration": "45 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-with-iron-l-elbow-length"
+            },
+            {
+              "name": "Blow Dry w/Iron (V.L)-Below Elbow Length",
+              "price_display": "785 UAE dirhams",
+              "duration": "1 hr 45 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/blow-dry-w-iron-v-l-below-elbow-length"
+            }
+          ]
+        },
+        {
+          "category": "Hair - Curls & Waves",
+          "count": 4,
+          "price_range": {
+            "min": 775.0,
+            "max": 1050.0
+          },
+          "services": [
+            {
+              "name": "Curls & Waves-(S)Neck length",
+              "price_display": "775 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-s-neck-length"
+            },
+            {
+              "name": "Curls & Waves-(M)Shoulder length",
+              "price_display": "860 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-m-shoulder-length"
+            },
+            {
+              "name": "Curls & Waves-(L)Elbow length",
+              "price_display": "945 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-l-elbow-length"
+            },
+            {
+              "name": "Curls & Waves-(V.L)Below Elbow length",
+              "price_display": "1,050 UAE dirhams",
+              "duration": "2 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/curls-waves-v-l-below-elbow-length"
+            }
+          ]
+        },
+        {
+          "category": "Massage",
+          "count": 7,
+          "price_range": {
+            "min": 315.0,
+            "max": 750.0
+          },
+          "services": [
+            {
+              "name": "Combination Massage - 60 Minutes",
+              "price_display": "485 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/combination-massage-60-minutes"
+            },
+            {
+              "name": "Thai Massage - 60 Minutes",
+              "price_display": "485 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/thai-massage-60-minutes"
+            },
+            {
+              "name": "Shiatsu Massage",
+              "price_display": "525 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/shiatsu-massage"
+            },
+            {
+              "name": "Deep Tissue - 60 Minutes",
+              "price_display": "525 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/deep-tissue-60-minutes"
+            },
+            {
+              "name": "Full Back Massage",
+              "price_display": "315 UAE dirhams",
+              "duration": "45 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/full-back-massage"
+            },
+            {
+              "name": "Combination Massage - 90 Minutes",
+              "price_display": "630 UAE dirhams",
+              "duration": "1 hr 30 min",
+              "booking_url": "https://www.example-brand.co/booking-calendar/combination-massage-90-minutes"
+            },
+            {
+              "name": "Couples Massage - 60 Minutes",
+              "price_display": "750 UAE dirhams",
+              "duration": "1 hr",
+              "booking_url": "https://www.example-brand.co/booking-calendar/couples-massage-60-minutes"
+            }
+          ]
+        }
+      ]
+    },
+    "pricing": {
+      "currency": "AED",
+      "count": 33,
+      "min": 255.0,
+      "avg": 718.73,
+      "max": 2100.0,
+      "observed_prices": [
+        {
+          "value": 950.0,
+          "currency": "AED",
+          "raw": "AED\u00a0950",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 1575.0,
+          "currency": "AED",
+          "raw": "AED\u00a01,575",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 2100.0,
+          "currency": "AED",
+          "raw": "AED\u00a02,100",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 682.5,
+          "currency": "AED",
+          "raw": "682.50 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 550.0,
+          "currency": "AED",
+          "raw": "550 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 273.0,
+          "currency": "AED",
+          "raw": "273 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 395.0,
+          "currency": "AED",
+          "raw": "395 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 465.0,
+          "currency": "AED",
+          "raw": "465 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 367.5,
+          "currency": "AED",
+          "raw": "367.50 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 575.0,
+          "currency": "AED",
+          "raw": "575 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 420.0,
+          "currency": "AED",
+          "raw": "420 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 255.0,
+          "currency": "AED",
+          "raw": "255 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 475.0,
+          "currency": "AED",
+          "raw": "475 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 630.0,
+          "currency": "AED",
+          "raw": "630 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 385.0,
+          "currency": "AED",
+          "raw": "385 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 455.0,
+          "currency": "AED",
+          "raw": "455 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 540.0,
+          "currency": "AED",
+          "raw": "540 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 650.0,
+          "currency": "AED",
+          "raw": "650 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 850.0,
+          "currency": "AED",
+          "raw": "850 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 985.0,
+          "currency": "AED",
+          "raw": "985 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 1200.0,
+          "currency": "AED",
+          "raw": "1,200 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 1400.0,
+          "currency": "AED",
+          "raw": "1,400 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 450.0,
+          "currency": "AED",
+          "raw": "450 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 525.0,
+          "currency": "AED",
+          "raw": "525 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 600.0,
+          "currency": "AED",
+          "raw": "600 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 785.0,
+          "currency": "AED",
+          "raw": "785 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 775.0,
+          "currency": "AED",
+          "raw": "775 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 860.0,
+          "currency": "AED",
+          "raw": "860 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 945.0,
+          "currency": "AED",
+          "raw": "945 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 1050.0,
+          "currency": "AED",
+          "raw": "1,050 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 485.0,
+          "currency": "AED",
+          "raw": "485 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 315.0,
+          "currency": "AED",
+          "raw": "315 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        },
+        {
+          "value": 750.0,
+          "currency": "AED",
+          "raw": "750 UAE dirhams",
+          "source_url": "https://www.example-brand.co/bookonline"
+        }
+      ]
+    },
+    "contact": {
+      "emails": [
+        "touchinfo@example-brand.co",
+        "info@example-brand.co",
+        "atinfo@example-brand.co"
+      ],
+      "phones": [],
+      "address": ""
+    },
+    "conversion": {
+      "primary_action": "Book Now",
+      "ctas": [
+        "Book Now",
+        "Book Online",
+        "Workshops",
+        "Contact Us",
+        "Send"
+      ],
+      "destination_type": "website"
+    },
+    "channels": {
+      "social": [
+        {
+          "platform": "instagram",
+          "url": "https://instagram.com/example-brand.co",
+          "handle": "example-brand.co"
+        },
+        {
+          "platform": "facebook",
+          "url": "https://facebook.com/INSTAGLAMdotCO",
+          "handle": "INSTAGLAMdotCO"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com/company/example-brand.co",
+          "handle": "example-brand.co"
+        }
+      ],
+      "messaging": [],
+      "apps": [],
+      "other": [
+        {
+          "label": "email",
+          "url": "mailto:touchinfo@example-brand.co"
+        },
+        {
+          "label": "email",
+          "url": "mailto:info@example-brand.co"
+        },
+        {
+          "label": "email",
+          "url": "mailto:atinfo@example-brand.coor"
+        }
+      ]
+    },
+    "assets": {
+      "image_assets": [
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_cc95527f30d04cbb9af8dc1b19cbef5f~mv2.png/v1/fill/w_1092,h_800,al_c/05aa54_cc95527f30d04cbb9af8dc1b19cbef5f~mv2.png",
+          "kind": "og",
+          "score_0_100": 100,
+          "alt": "og:image",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_5bfa72378b1244aebc039dfae3bb9223~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/1D0A8534.jpg",
+          "kind": "team",
+          "score_0_100": 80,
+          "alt": "1D0A8534.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_dab4eaba97ee435faf16757d5a1e570d~mv2.png/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/05aa54_dab4eaba97ee435faf16757d5a1e570d~mv2.png",
+          "kind": "unknown",
+          "score_0_100": 78,
+          "alt": "Screen Shot 2019-02-20 at 9.09.49 PM.png",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg/v1/crop/x_0,y_670,w_3840,h_2792/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/d99169_4713498713044ad7bf124ab3d6b0c51c~mv2_d_3840_5760_s_4_2.jpg",
+          "kind": "unknown",
+          "score_0_100": 77,
+          "alt": "",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_f0bbf81888d54f579521cbbe65b69b97~mv2_d_1918_1270_s_2.png/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/05aa54_f0bbf81888d54f579521cbbe65b69b97~mv2_d_1918_1270_s_2.png",
+          "kind": "unknown",
+          "score_0_100": 73,
+          "alt": "Screen Shot 2019-02-20 at 8.07.45 PM.png",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_06a2f870d2e1475ca66640928db00795~mv2.png/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/05aa54_06a2f870d2e1475ca66640928db00795~mv2.png",
+          "kind": "unknown",
+          "score_0_100": 70,
+          "alt": "",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_2894f081747a4e4fb476506c6ca60eea~mv2_d_5760_3840_s_4_2.jpg/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/05aa54_2894f081747a4e4fb476506c6ca60eea~mv2_d_5760_3840_s_4_2.jpg",
+          "kind": "unknown",
+          "score_0_100": 68,
+          "alt": "shutterstock_305135810.jpg",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_0a29240977f54f5bb8f03a91e0fb21ec~mv2.png/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/05aa54_0a29240977f54f5bb8f03a91e0fb21ec~mv2.png",
+          "kind": "unknown",
+          "score_0_100": 68,
+          "alt": "",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/92ccb93a9fd44fa4a456503e51ee083b.jpg/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/92ccb93a9fd44fa4a456503e51ee083b.jpg",
+          "kind": "unknown",
+          "score_0_100": 66,
+          "alt": "White Masquerade Mask",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/05aa54_d7b3967f7cfa4b8cad86d60862433dbb~mv2.png/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/05aa54_d7b3967f7cfa4b8cad86d60862433dbb~mv2.png",
+          "kind": "unknown",
+          "score_0_100": 66,
+          "alt": "",
+          "width": 0,
+          "height": 0
+        },
+        {
+          "url": "https://static.wixstatic.com/media/38043b3c05f64dbf99237fc72a2d7f5e.jpg/v1/fill/w_800,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif/38043b3c05f64dbf99237fc72a2d7f5e.jpg",
+          "kind": "unknown",
+          "score_0_100": 65,
+          "alt": "Model Applying Cream",
+          "width": 0,
+          "height": 0
+        }
+      ]
+    }
+  }
+}

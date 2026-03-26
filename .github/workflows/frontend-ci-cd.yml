@@ -1,0 +1,126 @@
+name: Frontend CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      deploy_environment:
+        description: "Environment to deploy (staging or production)"
+        required: true
+        default: "staging"
+        type: choice
+        options:
+          - staging
+          - production
+
+env:
+  PROJECT_ID: <YOUR_GCP_PROJECT_ID>
+  REGION: us-central1
+  PROD_BUCKET: <YOUR_APP>-frontend-prod-<YOUR_PROJECT_NUMBER>
+
+jobs:
+  # Runs on every push to main: installs deps and verifies the frontend builds.
+  # Does NOT deploy. Deployment is a separate manual step below.
+  ci:
+    name: Build & Test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: yarn install --frozen-lockfile
+
+      - name: Build (verify)
+        working-directory: frontend
+        env:
+          REACT_APP_BACKEND_URL: http://localhost:8001
+          REACT_APP_ENV: ci
+          CI: "false"
+        run: yarn build
+
+  # Runs only when manually triggered via workflow_dispatch.
+  # Requires the ci job to pass first.
+  #
+  # Staging deploys to Firebase Hosting (HTTPS SPA routing works out of the box).
+  # Production deploys to GCS bucket (use a load balancer for custom domain + HTTPS).
+  #
+  # Required GitHub Secrets:
+  #   FIREBASE_TOKEN    – from `firebase login:ci` (used for staging deploys)
+  #   GCP_SA_KEY_JSON   – Service account JSON key with Storage Object Admin (used for prod)
+  #
+  # Required GitHub Variables:
+  #   BACKEND_URL_STAGING  – Cloud Run staging URL
+  #   BACKEND_URL_PROD     – Cloud Run prod URL
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: ci
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Compute deployment variables
+        run: |
+          if [ "${{ github.event.inputs.deploy_environment }}" = "production" ]; then
+            echo "REACT_APP_BACKEND_URL=${{ vars.BACKEND_URL_PROD }}" >> $GITHUB_ENV
+            echo "REACT_APP_ENV=production" >> $GITHUB_ENV
+          else
+            echo "REACT_APP_BACKEND_URL=${{ vars.BACKEND_URL_STAGING }}" >> $GITHUB_ENV
+            echo "REACT_APP_ENV=staging" >> $GITHUB_ENV
+          fi
+
+      - name: Install dependencies
+        working-directory: frontend
+        run: yarn install --frozen-lockfile
+
+      - name: Build frontend
+        working-directory: frontend
+        env:
+          REACT_APP_BACKEND_URL: ${{ env.REACT_APP_BACKEND_URL }}
+          REACT_APP_ENV: ${{ env.REACT_APP_ENV }}
+          CI: "false"
+        run: yarn build
+
+      # Staging → Firebase Hosting
+      - name: Deploy to Firebase Hosting (staging)
+        if: github.event.inputs.deploy_environment == 'staging'
+        run: npx firebase-tools deploy --only hosting --project ${{ env.PROJECT_ID }} --token "${{ secrets.FIREBASE_TOKEN }}"
+
+      # Production → GCS bucket
+      - name: Authenticate to Google Cloud (production)
+        if: github.event.inputs.deploy_environment == 'production'
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY_JSON }}
+
+      - name: Set up gcloud SDK (production)
+        if: github.event.inputs.deploy_environment == 'production'
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Deploy to GCS bucket (production)
+        if: github.event.inputs.deploy_environment == 'production'
+        run: gsutil -m rsync -r -d ./frontend/build "gs://${{ env.PROD_BUCKET }}"

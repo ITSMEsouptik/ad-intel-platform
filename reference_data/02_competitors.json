@@ -1,0 +1,208 @@
+{
+  "has_data": true,
+  "status": "fresh",
+  "latest": {
+    "version": "3.0",
+    "captured_at": "2026-02-23T14:38:22.490679Z",
+    "refresh_due_at": "2026-03-25T14:38:22.490679Z",
+    "inputs_used": {
+      "geo": {
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "brand_name": "ExampleBrand",
+      "domain": "example-brand.co",
+      "subcategory": "On-demand Beauty Services",
+      "niche": "Home Hair & Makeup Dubai",
+      "services": [
+        "Makeup With or Without Lashes",
+        "Makeup & Simple Hairstyle",
+        "Makeup & Premium Hairstyle",
+        "Full Set Eyelash Extension",
+        "Eyelash Extension Refill",
+        "Classic Combo (Mani / Pedi)"
+      ],
+      "brand_overview": "Online platform bridging beauty professionals and customers with home services, bookings, workshops, and corporate events in Dubai. | Unleash Your Beauty, Anywhere, Anytime | Online booking platform with detailed service catalog | Email contact at info@example-brand.co for custom bookings",
+      "price_range": {
+        "currency": "AED",
+        "min": 255.0,
+        "max": 2100.0,
+        "avg": 718.73
+      },
+      "business_type": "service_provider",
+      "price_tier": "mid-range"
+    },
+    "competitors": [
+      {
+        "name": "Pristeena",
+        "website": "https://pristeena.com",
+        "instagram_url": "https://instagram.com/pristeena",
+        "instagram_handle": "@pristeena",
+        "tiktok_url": null,
+        "tiktok_handle": null,
+        "what_they_do": "Mobile beauty: makeup, hair, lashes, brows at Dubai homes",
+        "positioning": "Flawless bridal/party transformations delivered to your door",
+        "why_competitor": "Direct rival in home makeup/hairstyling for Dubai",
+        "price_tier": "premium",
+        "estimated_size": "medium",
+        "overlap_score": "high",
+        "strengths": [
+          "Bridal makeup specialty",
+          "Lash/brow lamination",
+          "Affordable luxury claim"
+        ],
+        "weaknesses": [
+          "Less emphasis on nails",
+          "Event-focused over daily"
+        ],
+        "ad_strategy_summary": "Google/IG ads on mobile bridal services, party glam; Dubai home delivery angles",
+        "social_presence": [
+          {
+            "platform": "Instagram",
+            "url": "https://instagram.com/pristeena",
+            "followers_approx": "20K"
+          }
+        ]
+      },
+      {
+        "name": "Biji Beauty Ladies Salon",
+        "website": "https://bijibeauty.ae",
+        "instagram_url": "https://instagram.com/bijibeautydubai",
+        "instagram_handle": "@bijibeautydubai",
+        "tiktok_url": "https://tiktok.com/@bijibeautydubai",
+        "tiktok_handle": "@bijibeautydubai",
+        "what_they_do": "Home salon: hair, makeup, nails, waxing, massages in Dubai",
+        "positioning": "24/7 premium beauty services at your Dubai doorstep",
+        "why_competitor": "Full overlap on home hair/makeup/nails/massages",
+        "price_tier": "luxury",
+        "estimated_size": "medium",
+        "overlap_score": "high",
+        "strengths": [
+          "24/7 availability",
+          "Full head-to-toe menu",
+          "Free consultations"
+        ],
+        "weaknesses": [
+          "Potentially higher wait times",
+          "Broad menu may dilute focus"
+        ],
+        "ad_strategy_summary": "Instagram/TikTok ads on 24/7 convenience, full makeovers; Dubai luxury home service",
+        "social_presence": [
+          {
+            "platform": "Instagram",
+            "url": "https://instagram.com/bijibeautydubai",
+            "followers_approx": "25K"
+          },
+          {
+            "platform": "TikTok",
+            "url": "https://tiktok.com/@bijibeautydubai",
+            "followers_approx": "10K"
+          }
+        ]
+      },
+      {
+        "name": "Zieda Beauty Lounge",
+        "website": "https://ziedabeautylounge.com",
+        "instagram_url": "https://instagram.com/ziedabeautylounge",
+        "instagram_handle": "@ziedabeautylounge",
+        "tiktok_url": null,
+        "tiktok_handle": null,
+        "what_they_do": "Home beauty: haircuts, styling, nails, makeup, lashes in Dubai",
+        "positioning": "Luxurious salon treatments without leaving home in Dubai",
+        "why_competitor": "Matches home hair/nails/makeup services for locals",
+        "price_tier": "premium",
+        "estimated_size": "small",
+        "overlap_score": "medium",
+        "strengths": [
+          "Premium products",
+          "Expert stylists",
+          "Comprehensive packages"
+        ],
+        "weaknesses": [
+          "Less corporate/event focus",
+          "Hair-heavy menu"
+        ],
+        "ad_strategy_summary": "Facebook ads on hassle-free home luxury, nail/hair services; Dubai convenience",
+        "social_presence": [
+          {
+            "platform": "Instagram",
+            "url": "https://instagram.com/ziedabeautylounge",
+            "followers_approx": "7K"
+          }
+        ]
+      },
+      {
+        "name": "Kzee Home Salon",
+        "website": "https://kzeehomesalon.com",
+        "instagram_url": null,
+        "instagram_handle": null,
+        "tiktok_url": null,
+        "tiktok_handle": null,
+        "what_they_do": "Home hair services: blow-drys, cuts, coloring, keratin, botox in Dubai",
+        "positioning": "Specialized hair revitalization treatments delivered to your Dubai home",
+        "why_competitor": "Direct rival in home hair styling & treatments for Dubai beauty seekers",
+        "price_tier": "mid-range",
+        "estimated_size": "small",
+        "overlap_score": "medium",
+        "strengths": [
+          "Specialized hair treatments like keratin/botox",
+          "Wide hair service variety",
+          "Focus on hair health"
+        ],
+        "weaknesses": [
+          "Hair-only focus, no makeup/nails",
+          "Narrower service scope"
+        ],
+        "ad_strategy_summary": "Ads on 'hair home service Dubai'; promotes specialized treatments, revitalization angles on search platforms",
+        "social_presence": [
+          {
+            "platform": "Instagram",
+            "url": "https://instagram.com/kzeehomesalon",
+            "followers_approx": "8K"
+          }
+        ]
+      },
+      {
+        "name": "Mauve Beauty Salon",
+        "website": "https://mauvebeautysalon.com",
+        "instagram_url": null,
+        "instagram_handle": null,
+        "tiktok_url": null,
+        "tiktok_handle": null,
+        "what_they_do": "Home salon: haircuts, facials, beauty services avoiding salon crowds in Dubai",
+        "positioning": "Professional crowd-free beauty services from hair to facials at your Dubai home",
+        "why_competitor": "Competes on home hair/facials for convenience-focused Dubai customers",
+        "price_tier": "premium",
+        "estimated_size": "small",
+        "overlap_score": "medium",
+        "strengths": [
+          "Anti-crowd convenience pitch",
+          "Full beauty service spectrum",
+          "Professional at-home execution"
+        ],
+        "weaknesses": [
+          "Website accessibility issues noted",
+          "Less detailed service catalog"
+        ],
+        "ad_strategy_summary": "Likely Google ads on 'home salon Dubai'; angles: no crowds, professional hair/facials at home comfort",
+        "social_presence": []
+      }
+    ],
+    "market_overview": {
+      "competitive_density": "high",
+      "dominant_player_type": "independents",
+      "market_insight": "Concierge models dominate events/bridal, while ladies-only salons win daily privacy needs in Dubai homes.",
+      "ad_landscape_note": "Expect heavy Instagram/Facebook ads from independents pushing home convenience, bridal glam, hygiene; platforms like Urban avoided by direct providers"
+    },
+    "delta": {
+      "previous_captured_at": "2026-02-23T14:37:33.850843Z",
+      "new_competitors_count": 2,
+      "removed_competitors_count": 1,
+      "notable_changes": [
+        "New: mauve beauty salon, kzee home salon",
+        "Removed: sabeauti professional ladies salon"
+      ]
+    }
+  },
+  "refresh_due_in_days": 18
+}
