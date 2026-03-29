@@ -5,6 +5,8 @@ An AI-powered ad intelligence platform that turns a brand's website into a struc
 The core idea: **research first, create later**. Instead of jumping straight into ad copy and creatives, the platform crawls a brand's website, extracts its DNA, then runs parallel intelligence pipelines across market, search, competitor, and seasonal data. The output is a rich, structured brief that informs ad strategy at scale.
 
 ---
+## Live Website: https://novara-489911.web.app/
+---
 
 ## What It Does
 
